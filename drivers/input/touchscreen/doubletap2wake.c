@@ -52,7 +52,7 @@ MODULE_LICENSE("GPLv2");
 
 /* Tuneables */
 #define DT2W_DEBUG		0
-#define DT2W_DEFAULT		2
+#define DT2W_DEFAULT		0
 
 #define DT2W_PWRKEY_DUR		60
 #define DT2W_FEATHER		80
@@ -445,4 +445,3 @@ static void __exit doubletap2wake_exit(void)
 
 module_init(doubletap2wake_init);
 module_exit(doubletap2wake_exit);
-
