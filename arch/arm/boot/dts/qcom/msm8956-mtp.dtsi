@@ -49,6 +49,7 @@
 		focaltech,fw-upgrade-id2 = <0x2c>;
 		focaltech,fw-delay-readid-ms = <10>;
 		focaltech,fw-delay-era-flsh-ms = <2000>;
+		focaltech,gesture-support;
 		focaltech,fw-auto-cal;
 		focaltech,ignore-id-check;
 	};
